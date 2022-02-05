@@ -1,0 +1,68 @@
+<meta>
+	<script type="server" src="server.lua"/>
+	
+	<!--
+		GTA:SA IDE Files  Total: 59
+		+1 SAMP.ide
+	-->
+	<file src="files/SAMP.ide" download="false"/>
+	<file src="files/barriers.ide" download="false"/>
+	<file src="files/countn2.ide" download="false"/>
+	<file src="files/countrye.ide" download="false"/>
+	<file src="files/countryN.ide" download="false"/>
+	<file src="files/countryS.ide" download="false"/>
+	<file src="files/countryW.ide" download="false"/>
+	<file src="files/counxref.ide" download="false"/>
+	<file src="files/default.ide" download="false"/>
+	<file src="files/dynamic.ide" download="false"/>
+	<file src="files/dynamic2.ide" download="false"/>
+	<file src="files/gen_int1.ide" download="false"/>
+	<file src="files/gen_int2.ide" download="false"/>
+	<file src="files/gen_int3.ide" download="false"/>
+	<file src="files/gen_int4.ide" download="false"/>
+	<file src="files/gen_int5.ide" download="false"/>
+	<file src="files/gen_intb.ide" download="false"/>
+	<file src="files/int_cont.ide" download="false"/>
+	<file src="files/int_LA.ide" download="false"/>
+	<file src="files/int_SF.ide" download="false"/>
+	<file src="files/int_veg.ide" download="false"/>
+	<file src="files/LAe.ide" download="false"/>
+	<file src="files/LAe2.ide" download="false"/>
+	<file src="files/LAhills.ide" download="false"/>
+	<file src="files/LAn.ide" download="false"/>
+	<file src="files/LAn2.ide" download="false"/>
+	<file src="files/LAs.ide" download="false"/>
+	<file src="files/LAs2.ide" download="false"/>
+	<file src="files/LAw.ide" download="false"/>
+	<file src="files/LAw2.ide" download="false"/>
+	<file src="files/LaWn.ide" download="false"/>
+	<file src="files/LAxref.ide" download="false"/>
+	<file src="files/leveldes.ide" download="false"/>
+	<file src="files/levelmap.ide" download="false"/>
+	<file src="files/levelxre.ide" download="false"/>
+	<file src="files/multiobj.ide" download="false"/>
+	<file src="files/peds.ide" download="false"/>
+	<file src="files/procobj.ide" download="false"/>
+	<file src="files/propext.ide" download="false"/>
+	<file src="files/props.ide" download="false"/>
+	<file src="files/props2.ide" download="false"/>
+	<file src="files/savehous.ide" download="false"/>
+	<file src="files/seabed.ide" download="false"/>
+	<file src="files/SFe.ide" download="false"/>
+	<file src="files/SFn.ide" download="false"/>
+	<file src="files/SFs.ide" download="false"/>
+	<file src="files/SFSe.ide" download="false"/>
+	<file src="files/SFw.ide" download="false"/>
+	<file src="files/SFxref.ide" download="false"/>
+	<file src="files/stadint.ide" download="false"/>
+	<file src="files/txd.ide" download="false"/>
+	<file src="files/txdcut.ide" download="false"/>
+	<file src="files/vegasE.ide" download="false"/>
+	<file src="files/VegasN.ide" download="false"/>
+	<file src="files/VegasS.ide" download="false"/>
+	<file src="files/VegasW.ide" download="false"/>
+	<file src="files/vegaxref.ide" download="false"/>
+	<file src="files/vegepart.ide" download="false"/>
+	<file src="files/veh_mods.ide" download="false"/>
+	<file src="files/vehicles.ide" download="false"/>
+</meta>
