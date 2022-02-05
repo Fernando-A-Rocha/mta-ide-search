@@ -59,17 +59,17 @@ function (startedResource)
 
 		local lines = split(str, "\n")
 		for j, line in pairs(lines) do
+			line = line:gsub("%\r", "")
 			local s = split(line,",")
-			if s and #s == 5 and tonumber(s[1]) then
+			if s and s[1] and s[2] and s[3] then
 				local model = tonumber(s[1])
                 local dff = string.gsub(s[2], '%s+', '')
                 local txd = string.gsub(s[3], '%s+', '')
-
-                if not (model and dff and txd) then
-                	iprint("WRONG: ", model, dff, txd)
-                else
-                	table.insert(ideList[idename], {model=model, dff=dff, txd=txd})
-                end
+                if model and (not tonumber(dff)) and (not tonumber(txd)) then
+		            table.insert(ideList[idename], {model=model, dff=dff, txd=txd})
+	            else
+	            	-- iprint(s)
+	            end
 			end
 		end
 	end
@@ -77,6 +77,8 @@ end)
 
 function listIdeFiles(thePlayer, cmd)
 	outputChatBox("Total IDE files parsed: "..table.size(ideList), thePlayer, 255, 194, 14)
+	outputChatBox("Loading GUI...", thePlayer, 187,187,187)
+	triggerClientEvent(thePlayer, "ide-search:viewList", resourceRoot, ideList)
 end
 addCommandHandler("listide", listIdeFiles, false, false)
 
@@ -85,6 +87,7 @@ function searchInIde(thePlayer, cmd, idename, stype, svalue)
 		outputChatBox("SYNTAX: /"..cmd.." [IDE File Name] [Search Type] [...]", thePlayer, 255,194,14)
 		outputChatBox("You can enter 'all' to search all IDE files", thePlayer, 255,255,255)
 		outputChatBox("Search Types: model, dff, txd", thePlayer, 255,255,255)
+		outputChatBox("TIP: You can also use /listide to search via GUI", thePlayer, 187,187,187)
 		return
 	end
 	idename = string.lower(idename)
