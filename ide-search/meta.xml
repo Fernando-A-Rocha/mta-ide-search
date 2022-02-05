@@ -1,4 +1,5 @@
 <meta>
+    <info author="Fernando" name="mta-ide-search" description="tool for searching all GTA+SAMP ide files" version="1.0.0" type="script"/>
 	<script type="server" src="server.lua"/>
 	
 	<!--
