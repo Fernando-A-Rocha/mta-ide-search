@@ -5,7 +5,9 @@ These files contain information about all models in the game (ID, dff, txd, etc)
 
 For example, you can use this script to find which DFF models use a certain TXD file.
 
-MTA Forum thread: [https://forum.mtasa.com/topic/134224-rel-ide-search-tool](https://forum.mtasa.com/topic/134224-rel-ide-search-tool)
+MTA forum topic: [https://forum.mtasa.com/topic/134224-rel-ide-search-tool](https://forum.mtasa.com/topic/134224-rel-ide-search-tool)
+
+Contact (author): Nando#7736 **(Discord)**
 
 # Setup
 - Move `ide-search` folder into your server's resources
