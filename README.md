@@ -1,6 +1,6 @@
 # mta-ide-search
-This resource lets you search for model IDs, DFF and TXD names in all of GTA's .ide files (as well as SAMP.ide)
-These files contain information about all models in the game (ID, dff, txd, etc)
+This resource lets you search for model IDs, DFF and TXD names in all of GTA's .ide files (as well as SAMP.ide).\
+These files contain information about all models in the game (ID, dff, txd, etc).\
 For example, you can use this script to find which DFF models use a certain TXD file.
 
 # Setup
