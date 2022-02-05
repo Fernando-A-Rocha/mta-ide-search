@@ -140,7 +140,7 @@ function searchInIde(thePlayer, cmd, idename, stype, svalue)
 				if stype == "model" and (tonumber(v.model) == tonumber(svalue))
 				or stype == "dff" and (string.find(string.lower(v.dff), string.lower(svalue)))
 				or stype == "txd" and (string.find(string.lower(v.txd), string.lower(svalue))) then
-					outputChatBox(" "..v.model.." | "..v.dff..".dff | "..v.txd..".txd", thePlayer, 255, 255, 255)
+					outputChatBox("#ffe600 "..v.model.." |#2ef5ff "..v.dff..".dff |#ff96fd "..v.txd..".txd  #b3b3b3("..name..".ide)", thePlayer, 255, 255, 255, true)
 					count = count + 1
 				end
 			end
