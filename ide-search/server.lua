@@ -26,6 +26,10 @@
 
 local ideList = {}
 
+function getIdeList()
+	return ideList
+end
+
 addEventHandler( "onResourceStart", resourceRoot, 
 function (startedResource)
 	local meta = xmlLoadFile("meta.xml")
@@ -60,15 +64,23 @@ function (startedResource)
 		local lines = split(str, "\n")
 		for j, line in pairs(lines) do
 			line = line:gsub("%\r", "")
-			local s = split(line,",")
+			local s
+			if idename == "vehicles" then
+				-- comma missing after emperor and wayfarer so we just split using tabs instead coz that works
+				line = line:gsub(",", "")
+				s = split(line,"\t")
+			else
+				s = split(line,",")
+			end
 			if s and s[1] and s[2] and s[3] then
 				local model = tonumber(s[1])
                 local dff = string.gsub(s[2], '%s+', '')
                 local txd = string.gsub(s[3], '%s+', '')
                 if model and (not tonumber(dff)) and (not tonumber(txd)) then
+					if dff == "emperoremperor" then
+						iprint(s)
+					end
 		            table.insert(ideList[idename], {model=model, dff=dff, txd=txd})
-	            else
-	            	-- iprint(s)
 	            end
 			end
 		end
