@@ -26,6 +26,7 @@
 
 local ideList = {}
 
+-- [Exported]
 function getIdeList()
 	return ideList
 end
