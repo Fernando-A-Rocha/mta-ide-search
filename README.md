@@ -7,7 +7,7 @@ For example, you can use this script to find which DFF models use a certain TXD 
 
 MTA forum topic: [https://forum.mtasa.com/topic/134224-rel-ide-search-tool](https://forum.mtasa.com/topic/134224-rel-ide-search-tool)
 
-Contact (author): Nando#7736 **(Discord)**
+If you need help with anything related to this project, please read the corresponding section on the MTA forum thread linked above.
 
 # Setup
 - Move `ide-search` folder into your server's resources
